@@ -2,7 +2,26 @@
 name = "quotescli"
 version = "0.1.0"
 edition = "2021"
+authors = ["Omadoye Abraham <omadoyeabraham.dev@gmail.com>"]
+license = "MIT"
+description = "A tool to search files"
+readme = "README.md"
+homepage = "https://github.com/you/grrs"
+repository = "https://github.com/you/grrs"
+keywords = ["cli", "search", "demo"]
+categories = ["command-line-utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+# Used for easy error handling
+anyhow = "1.0"
+# Clap is used to parse command line arguments
+clap = { version = "4.0", features = ["derive"] }
+# Used for printing tables on the command line
+cli-table = "0.4"
+# Used for making HTTP requests
+reqwest = { version = "0.11", features = ["blocking", "json"] }
+serde = { version = "1.0.196", features = ["derive"] }
+# Async runtime
+# tokio = { version = "1", features = ["full"] }
