@@ -5,10 +5,10 @@ This Rust CLI program retrieves inspirational quotes from [ZenQuotes API](https:
 ## Usage
 
 ```bash
-./quotescli <NUMBER OF QUOTES>
+./quotescli <NUMBER_OF_QUOTES>
 ```
 
-- `<NUMBER>`: The number of quotes to be displayed. Must be a positive integer, and ha a maximum value of 10.
+- `<NUMBER_OF_QUOTES>`: The number of quotes to be displayed. Must be a positive integer, and ha a maximum value of 10.
 
 ## Example
 
