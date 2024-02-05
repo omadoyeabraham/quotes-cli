@@ -4,11 +4,11 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Omadoye Abraham <omadoyeabraham.dev@gmail.com>"]
 license = "MIT"
-description = "A tool to search files"
+description = "A simple command line tool to fetch inspirational quotes from the web"
 readme = "README.md"
-homepage = "https://github.com/you/grrs"
-repository = "https://github.com/you/grrs"
-keywords = ["cli", "search", "demo"]
+homepage = "https://github.com/omadoyeabraham/quotes-cli"
+repository = "https://github.com/omadoyeabraham/quotes-cli"
+keywords = ["cli", "inspiration", "quotes"]
 categories = ["command-line-utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

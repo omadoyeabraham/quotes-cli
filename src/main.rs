@@ -16,6 +16,7 @@ struct Cli {
 struct QuotesApiResponse {
     q: String,
     a: String,
+    #[allow(dead_code)]
     c: String,
     h: String,
 }
